@@ -1,0 +1,15 @@
+#Calculations for the 1st value entered.
+x=float(input("Enter distance in kilometers: "))
+y=0.621371
+b=x*y
+print("Distance in miles:",b)
+
+
+a=input("Do you want to convert another distance? (yes/no): ")
+if a =="yes":
+    q=float(input("Enter distance in kilometers: "))
+    r=q*y
+    print("Distance in miles",r)
+#else is needed to indicate if no is entered.
+else:
+    print("Program ended.")
